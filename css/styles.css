@@ -1,0 +1,238 @@
+html{
+    scroll-behavior: smooth
+}
+
+body{
+    margin: 0px;
+}
+
+.titleHeader{
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 2vh 0;
+    height: 6vh;
+    width: 100vw;
+    background-color: #131313;
+    border-color: #131313;
+    position: fixed;
+    transition: border-color 0.3s ease 0s;
+}
+
+.titleNav{
+    margin: 0px;
+    height: 6vh;
+    width: 100vw;
+}
+
+.imgLink0{
+    margin-left: 26vw;
+    margin-right: 2.5vw;
+    float: left;
+}
+
+.img0{
+    margin: 0;
+    height: 6vh;
+}
+
+.textLink0{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    border-radius: 10px;
+    padding: 2vh 0vw;
+    width: 10vw;
+    background-color: #444444;
+    float: left;
+    font-family: "Times New Roman", Times, serif;
+    transition: background-color 0.3s ease 0s;
+}
+
+.textLink1{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    border-radius: 10px;
+    padding: 2vh 0vw;
+    width: 10vw;
+    background-color: #444444;
+    float: left;
+    font-family: "Times New Roman", Times, serif;
+    transition: background-color 0.3s ease 0s;
+}
+
+.textLink2{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 2.5vw;
+    margin-right: 8vw;
+    border-radius: 10px;
+    padding: 2vh 0vw;
+    width: 10vw;
+    background-color: #444444;
+    float: left;
+    font-family: "Times New Roman", Times, serif;
+    transition: background-color 0.3s ease 0s;
+}
+
+.mainSection0{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 10vh;
+    padding-top: 29.7vh;
+    padding-bottom: 40.7vh;
+    padding-left: 24.55vw;
+    padding-right: 24.55vw;
+    clear: both;
+    display: inline-block;
+    background-image: url("../images/marsSurface3HD.jpg");
+    background-color: #131313;
+    background-size: cover;
+}
+
+.mainSection0H10{
+    color: aliceblue;
+    font-family: "Times New Roman", Times, serif;
+    width: 50vw;
+}
+
+.mainSection1{
+    text-align: center;
+    font-size: xx-large;
+    margin: 0;
+    padding-top: 18.1vh;
+    padding-bottom: 27.3vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    clear: both;
+    display: inline-block;
+    /* background-image: url("../images/circuit.jpg"); */
+    background: #000000;
+    background: linear-gradient(to right, #161616, #000000);
+    background-size: cover;
+}
+
+.mainSection1H10{
+    color: #fe3b6f;
+    font-family: "Times New Roman", Times, serif;
+    padding-bottom: 8vh;
+}
+
+.mainSection1P0{
+    color: aliceblue;
+    font-family: "Times New Roman", Times, serif;
+    padding-top: 8vh;
+}
+
+.mainSection2{
+    text-align: left;
+    font-size: xx-large;
+    background-color: #131313;
+
+}
+
+.mainSection2H10{
+    color: #fe3b6f;
+    font-family: "Times New Roman", Times, serif;
+    padding-bottom: 8vh;
+    margin: 0;
+    padding-top: 18.1vh;
+    padding-bottom: 22.3vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    text-align: center;
+}
+
+.mainSection2Main0{
+    margin: 0;
+    display: inline-block;
+    padding-bottom: 10vh;
+}
+
+.img1{
+    float: left;
+    margin: 0;
+    margin-left: 5vw;
+    border-radius: 10px;
+    width: 18vw;
+}
+
+.mainSection2Main0H20{
+    margin: 0;
+    margin-left: 28vw;
+    margin-bottom: 5vh;
+    color:#37c;
+}
+
+.mainSection2Main0P0{
+    margin: 0;
+    margin-left: 28vw;
+    margin-right: 5vw;
+    color: aliceblue;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.mainSection2Main1{
+    margin: 0;
+    display: inline-block;
+    padding-bottom: 10vh;
+}
+
+.img2{
+    float: left;
+    margin: 0;
+    margin-left: 5vw;
+    border-radius: 10px;
+    width: 18vw;
+}
+
+.mainSection2Main1H20{
+    margin: 0;
+    margin-left: 28vw;
+    margin-bottom: 5vh;
+    color: #37c;
+}
+
+.mainSection2Main1P0{
+    margin: 0;
+    margin-left: 28vw;
+    margin-right: 5vw;
+    color: aliceblue;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.mainSection2Main2{
+    margin: 0;
+    display: inline-block;
+    padding-bottom: 10vh;
+}
+
+.img3{
+    float: left;
+    margin: 0;
+    margin-left: 5vw;
+    border-radius: 10px;
+    width: 18vw;
+}
+
+.mainSection2Main2H20{
+    margin: 0;
+    margin-left: 28vw;
+    margin-bottom: 5vh;
+    color: #37c;
+}
+
+.mainSection2Main2P0{
+    margin: 0;
+    margin-left: 28vw;
+    margin-right: 5vw;
+    color: aliceblue;
+    font-family: "Times New Roman", Times, serif;
+}
