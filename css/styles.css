@@ -123,12 +123,16 @@ body{
     color: #fe3b6f;
     font-family: "Times New Roman", Times, serif;
     padding-bottom: 8vh;
+    opacity: 0;
+    transition: opacity 0.5s ease 0s;
 }
 
 .mainSection1P0{
     color: aliceblue;
     font-family: "Times New Roman", Times, serif;
     padding-top: 8vh;
+    opacity: 0;
+    transition: opacity 0.5s ease 0s;
 }
 
 .mainSection2{
@@ -148,6 +152,8 @@ body{
     padding-left: 4vw;
     padding-right: 4vw;
     text-align: center;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
 }
 
 .mainSection2Main0{
@@ -162,6 +168,8 @@ body{
     margin-left: 5vw;
     border-radius: 10px;
     width: 18vw;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
 }
 
 .mainSection2Main0H20{
@@ -169,6 +177,8 @@ body{
     margin-left: 28vw;
     margin-bottom: 5vh;
     color:#37c;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
 }
 
 .mainSection2Main0P0{
@@ -177,6 +187,8 @@ body{
     margin-right: 5vw;
     color: aliceblue;
     font-family: "Times New Roman", Times, serif;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
 }
 
 .mainSection2Main1{
@@ -191,6 +203,8 @@ body{
     margin-left: 5vw;
     border-radius: 10px;
     width: 18vw;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
 }
 
 .mainSection2Main1H20{
@@ -198,6 +212,8 @@ body{
     margin-left: 28vw;
     margin-bottom: 5vh;
     color: #37c;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
 }
 
 .mainSection2Main1P0{
@@ -206,6 +222,8 @@ body{
     margin-right: 5vw;
     color: aliceblue;
     font-family: "Times New Roman", Times, serif;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
 }
 
 .mainSection2Main2{
@@ -220,6 +238,8 @@ body{
     margin-left: 5vw;
     border-radius: 10px;
     width: 18vw;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
 }
 
 .mainSection2Main2H20{
@@ -227,6 +247,8 @@ body{
     margin-left: 28vw;
     margin-bottom: 5vh;
     color: #37c;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
 }
 
 .mainSection2Main2P0{
@@ -235,4 +257,6 @@ body{
     margin-right: 5vw;
     color: aliceblue;
     font-family: "Times New Roman", Times, serif;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
 }
