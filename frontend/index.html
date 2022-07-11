@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/gif" href="images/favicon.gif">
+    <title>Matthew Faraz Tootoonchi</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header class="titleHeader" id="titleHeaderID">
+        <nav class="titleNav">
+            <a href="#mainSection0ID" class="imgLink0"><img src="images/myPicture.png" alt="My Picture" class="img0"></a>
+            <a href="#mainSection1ID" class="textLink0" id="textLink0ID">About</a>
+            <a href="#mainSection2ID" class="textLink1" id="textLink1ID">Achievements</a>
+            <a href="#mainSection3ID" class="textLink2" id="textLink2ID">Contact</a>
+        </nav>
+    </header>
+    <section class="mainSection0" id="mainSection0ID">
+        <h1 class="mainSection0H10">Hi there,<br>I'm Matthew Faraz Tootoonchi</h1>
+    </section>
+    <section class="mainSection1" id="mainSection1ID">
+        <h1 class="mainSection1H10" id="mainSection1H10ID">A Little Bit About Me</h1>
+        <p class="mainSection1P0" id="mainSection1P0ID">
+            I am an extremely qualified and passionate computer 
+            engineer with high outstanding achievements. I have 
+            flexibility moved from creating code on a microcontroller
+            to launch a rocket for the NASA MINDS competition to developing  
+            this website for myself. If you are interested in getting into 
+            contact with me click the contact button on top! 
+        </p>
+    </section>
+    <section class="mainSection2" id="mainSection2ID">
+        <h1 class="mainSection2H10" id="mainSection2H10ID">My Achievements</h1>
+        <main class="mainSection2Main0">
+            <img src="images/NASAMINDSRocket.png" alt="NASAMINDS Rocket" class="img1" id="img1ID">
+            <h2 class="mainSection2Main0H20" id="mainSection2Main0H20ID">NASAMINDS</h2>
+            <p class="mainSection2Main0P0" id="mainSection2Main0P0ID">
+                This is a rocket I programmed for the NASAMINDS competition with the microcontroller Raspberry PICO connected to a Raspberry Pi 3 which is accessed with a computer via SSH. 
+                How it works is I programmed the Raspberry PICO to receive serial input from the Raspberry Pi 3 which is a command that will instruct the PICO to burn a fuse connected to 
+                the rocket which will light it to send it off to space. This project won as a finalize for NASA in the NASAMINDS competition.
+            </p>
+        </main>
+        <main class="mainSection2Main1">
+            <img src="images/Tetris.png" alt="NASAMINDS Rocket" class="img2" id="img2ID">
+            <h2 class="mainSection2Main1H20" id="mainSection2Main1H20ID">Tetris</h2>
+            <p class="mainSection2Main1P0" id="mainSection2Main1P0ID">
+                This is a Tetris game I made with an SoC on the FPGA Nexys A7-100T. I have programmed a song that gets higher pitch depending on what score you have and 60 individually 
+                controllable blocks that make the shapes you can rotate. I did this project for my final project for my advanced Verilog course that I enjoyed making.
+            </p>
+        </main>
+        <main class="mainSection2Main2">
+            <img src="images/TicTacToe.png" alt="NASAMINDS Rocket" class="img3" id="img3ID">
+            <h2 class="mainSection2Main2H20" id="mainSection2Main2H20ID">TicTacToe</h2>
+            <p class="mainSection2Main2P0" id="mainSection2Main2P0ID">
+                This is a TicTacToe game I made in my freshman year in college. There is an interactable GUI, score tracking system, a way to save and create files to keep track of your 
+                games, and an unbeatable artificial intelligence. This project was one of the first of many personal projects I did in my spare time on Github.
+            </p>
+        </main>
+    </section>
+    <section class="mainSection3" id="mainSection3ID">
+        <h1 class="mainSection3H10" id="mainSection3H10ID">Contact Me</h1>
+        <form action="" class="mainSection3Form0" id="mainSection3Form0ID">
+            <textarea name="" id="" rows="1" placeholder="Email" class="mainSection3Form0Textarea0"></textarea>
+            <br>
+            <textarea name="" id="" rows="8" placeholder="Message" class="mainSection3Form0Textarea1"></textarea>
+            <br>
+            <input type="button" onclick="contact()" value="Send!" class="mainSection3Form0Input0">
+        </form>
+    </section>
+    <footer class="bottomFooter">
+        <div class="social__icons">
+            <a href="https://www.linkedin.com/in/mftootoonchi/" class="social__icon--link" id="social__icon--linkID0">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/mtootoonchi" class="social__icon--link" id="social__icon--linkID1">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
