@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="js/script.js"></script>
 </head>
 <body>
@@ -23,7 +24,7 @@
         </nav>
     </header>
     <section class="mainSection0" id="mainSection0ID">
-        <h1 class="mainSection0H10">Hi there,<br>I'm Matthew Faraz Tootoonchi</h1>
+        <h1 class="mainSection0H10" id="mainSection0H10ID">Hi there,<br>I'm Matthew Faraz Tootoonchi</h1>
     </section>
     <section class="mainSection1" id="mainSection1ID">
         <h1 class="mainSection1H10" id="mainSection1H10ID">A Little Bit About Me</h1>
@@ -39,7 +40,7 @@
     <section class="mainSection2" id="mainSection2ID">
         <h1 class="mainSection2H10" id="mainSection2H10ID">My Achievements</h1>
         <main class="mainSection2Main0">
-            <img src="images/NASAMINDSRocket.png" alt="NASAMINDS Rocket" class="img1" id="img1ID">
+            <a href="https://nasaminds.org/" target="_blank"><img src="images/NASAMINDSRocket.png" alt="NASAMINDS Rocket" class="img1" id="img1ID"></a>
             <h2 class="mainSection2Main0H20" id="mainSection2Main0H20ID">NASAMINDS</h2>
             <p class="mainSection2Main0P0" id="mainSection2Main0P0ID">
                 This is a rocket I programmed for the NASAMINDS competition with the microcontroller Raspberry PICO connected to a Raspberry Pi 3 which is accessed with a computer via SSH. 
@@ -48,7 +49,7 @@
             </p>
         </main>
         <main class="mainSection2Main1">
-            <img src="images/Tetris.png" alt="NASAMINDS Rocket" class="img2" id="img2ID">
+            <a href="https://github.com/mtootoonchi/Tetris" target="_blank"><img src="images/Tetris.png" alt="NASAMINDS Rocket" class="img2" id="img2ID"></a>
             <h2 class="mainSection2Main1H20" id="mainSection2Main1H20ID">Tetris</h2>
             <p class="mainSection2Main1P0" id="mainSection2Main1P0ID">
                 This is a Tetris game I made with an SoC on the FPGA Nexys A7-100T. I have programmed a song that gets higher pitch depending on what score you have and 60 individually 
@@ -56,7 +57,7 @@
             </p>
         </main>
         <main class="mainSection2Main2">
-            <img src="images/TicTacToe.png" alt="NASAMINDS Rocket" class="img3" id="img3ID">
+            <a href="https://github.com/mtootoonchi/TicTacToe" target="_blank"><img src="images/TicTacToe.png" alt="NASAMINDS Rocket" class="img3" id="img3ID"></a>
             <h2 class="mainSection2Main2H20" id="mainSection2Main2H20ID">TicTacToe</h2>
             <p class="mainSection2Main2P0" id="mainSection2Main2P0ID">
                 This is a TicTacToe game I made in my freshman year in college. There is an interactable GUI, score tracking system, a way to save and create files to keep track of your 
@@ -66,23 +67,32 @@
     </section>
     <section class="mainSection3" id="mainSection3ID">
         <h1 class="mainSection3H10" id="mainSection3H10ID">Contact Me</h1>
-        <form action="" class="mainSection3Form0" id="mainSection3Form0ID">
-            <textarea name="" id="" rows="1" placeholder="Email" class="mainSection3Form0Textarea0"></textarea>
+        <form class="mainSection3Form0" id="mainSection3Form0ID">
+            <textarea id="mainSection3Form0Textarea0ID" rows="1" placeholder="Email" class="mainSection3Form0Textarea0"></textarea>
             <br>
-            <textarea name="" id="" rows="8" placeholder="Message" class="mainSection3Form0Textarea1"></textarea>
+            <textarea id="mainSection3Form0Textarea1ID" rows="8" placeholder="Message" class="mainSection3Form0Textarea1"></textarea>
             <br>
-            <input type="button" onclick="contact()" value="Send!" class="mainSection3Form0Input0">
+            <input type="button" onclick="contact()" value="Send!" class="mainSection3Form0Input0" id="mainSection3Form0Input0ID">
         </form>
+        <h1 class="mainSection3H11" id="mainSection3H11ID">Email Sent, Congratulations!</h1>
     </section>
     <footer class="bottomFooter">
         <div class="social__icons">
-            <a href="https://www.linkedin.com/in/mftootoonchi/" class="social__icon--link" id="social__icon--linkID0">
+            <a href="https://www.linkedin.com/in/mftootoonchi/" target="_blank" class="social__icon--link" id="social__icon--linkID0">
                 <i class="fab fa-linkedin"></i>
+                <h6 class="bottomFooterH60">Linkedin</h6>
             </a>
-            <a href="https://github.com/mtootoonchi" class="social__icon--link" id="social__icon--linkID1">
+            <a href="documents/Resume - General.pdf" target="_blank" class="social__icon--link" id="social__icon--linkID1">
+                <i class="far fa-file-alt"></i>
+                <h6 class="bottomFooterH60">Resume</h6>
+            </a>
+            <a href="https://github.com/mtootoonchi" target="_blank" class="social__icon--link" id="social__icon--linkID2">
                 <i class="fab fa-github"></i>
+                <h6 class="bottomFooterH60">Github</h6>
             </a>
         </div>
     </footer>
 </body>
 </html>
+
+<!-- Intrested in this project, check out https://github.com/mtootoonchi/Personal-Website to check it out! -->
