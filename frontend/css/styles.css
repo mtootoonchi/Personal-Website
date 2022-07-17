@@ -7,12 +7,12 @@ body{
 }
 
 .titleHeader{
+    z-index: 200;
     border-style: solid;
     border-top: 0;
     border-left: 0;
     border-right: 0;
     padding: 2vh 0;
-    height: 6vh;
     width: 100vw;
     background-color: #131313;
     border-color: #131313;
@@ -35,6 +35,7 @@ body{
 .img0{
     margin: 0;
     height: 6vh;
+    
 }
 
 .textLink0{
@@ -264,7 +265,7 @@ body{
     text-align: center;
     font-size: xx-large;
     margin: 0;
-    padding-bottom: 12.3vh;
+    padding-bottom: 6.3vh;
     background: #000000;
     background: linear-gradient(to right, #161616, #000000);
 }
@@ -274,13 +275,13 @@ body{
     font-family: "Times New Roman", Times, serif;
     margin: 0;
     padding-top: 18.1vh;
-    padding-bottom: 15.3vh;
-    opacity: 1;
+    padding-bottom: 8.3vh;
+    opacity: 0;
     transition: opacity 0.5s ease 0s;
 }
 
 .mainSection3Form0{
-    opacity: 1;
+    opacity: 0;
     transition: opacity 0.5s ease 0s;
 }
 
@@ -288,18 +289,37 @@ body{
     display: inline-block;
     font-size: xx-large;
     width: 40vw;
+    border: 2px solid #888;
+    resize: none;
+    transition: border-color 0.5s ease 0s;
 }
 
 .mainSection3Form0Textarea1{
     display: inline-block;
     font-size: xx-large;
     width: 40vw;
-    
+    border: 2px solid #888;
+    resize: none;
 }
 
 .mainSection3Form0Input0{
     display: inline-block;
     font-size: xx-large;
+}
+
+.mainSection3Form0Input0:hover{
+    cursor: pointer;
+    display: inline-block;
+    font-size: xx-large;
+}
+
+.mainSection3H11{
+    color: #fe3b6f;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding-top: 6.3vh;
+    opacity: 0;
+    transition: opacity 0.5s ease 0s;
 }
 
 .bottomFooter{
@@ -311,11 +331,41 @@ body{
 }
 
 .social__icon--link{
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
     color: #fff;
     font-size: 100px;
     text-decoration: none;
-    padding-right: 5vw;
-    padding-left: 5vw;
+    margin: 0;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    opacity: 0;
+    transition: opacity 0.5s ease 0s;
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+}
+
+.social__icon--link:hover{
+    cursor: pointer;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    font-size: 100px;
+    text-decoration: none;
+    margin: 0;
+    margin-right: 5vw;
+    margin-left: 5vw;
     opacity: 1;
     transition: opacity 0.5s ease 0s;
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+}
+
+.bottomFooterH60{
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
 }
