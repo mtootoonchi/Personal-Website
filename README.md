@@ -1,5 +1,3 @@
-Hello this is my Personal Website code has been edited to pre-deployment on hosting and to prevent doxxing.
-
-WIP
+Hello this is my Personal Website code check it out you can also use the link to look at how it looks like.
 
 mtootoonchi.com
